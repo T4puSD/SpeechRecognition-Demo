@@ -2,6 +2,7 @@
   <head>
     <title>Speach Recognition Demo TSD</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap"
       rel="stylesheet"
@@ -19,7 +20,9 @@
 
   <body>
     <div class="header">
-      <h3 class="declaration">This is a Speech Recognition Demo</h3>
+      <h3 class="declaration" id="title" onmousemove="speechRecognize()">
+        This is a Speech Recognition Demo
+      </h3>
       <h4 class="declaration">
         This Website simply readout what you say after pressing the button
         bellow.
@@ -36,5 +39,11 @@
         >Add Record icon by Icons8</a
       >
     </div>
+
+    <script>
+      function dd() {
+        document.getElementById("title").innerHTML = "Hello!";
+      }
+    </script>
   </body>
 </html>
