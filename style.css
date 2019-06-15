@@ -15,8 +15,8 @@ h3 {
 }
 
 .divimages {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 100px;
   margin: auto;
   margin-top: 200px;
 }
@@ -30,4 +30,9 @@ h3 {
   position: fixed;
   bottom: 0;
   right: 0;
+}
+.resultdiv {
+  display: block;
+  padding: 1px;
+  text-align: center;
 }

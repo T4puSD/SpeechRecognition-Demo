@@ -20,7 +20,7 @@
 
   <body>
     <div class="header">
-      <h3 class="declaration" id="title" onmousemove="speechRecognize()">
+      <h3 class="declaration" id="title" onmousemove="">
         This is a Speech Recognition Demo
       </h3>
       <h4 class="declaration">
@@ -29,9 +29,13 @@
       </h4>
     </div>
     <div class="divimages">
-      <button class="bt">
+      <button class="bt" onclick="speechRecognize()">
         <img class="img_buttons" src="./img/record_icon.png" />
       </button>
+    </div>
+
+    <div class="resultdiv">
+      <h5 id="result"></h5>
     </div>
 
     <div class="credits">
