@@ -1,0 +1,33 @@
+* {
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+body {
+  margin: 50px 0px 0px 0px;
+}
+h3 {
+  font-size: 30px;
+}
+.declaration {
+  margin-bottom: 0px;
+}
+.header {
+  text-align: center;
+}
+
+.divimages {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: 200px;
+}
+.bt {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.credits {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

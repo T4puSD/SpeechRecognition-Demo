@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Speach Recognition Demo TSD</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+          $(".bt .img_buttons").attr("src", "./img/recording_icon.png");
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h3 class="declaration">This is a Speech Recognition Demo</h3>
+      <h4 class="declaration">
+        This Website simply readout what you say after pressing the button
+        bellow.
+      </h4>
+    </div>
+    <div class="divimages">
+      <button class="bt">
+        <img class="img_buttons" src="./img/record_icon.png" />
+      </button>
+    </div>
+
+    <div class="credits">
+      <a href="https://icons8.com/icon/36333/add-record"
+        >Add Record icon by Icons8</a
+      >
+    </div>
+  </body>
+</html>
