@@ -1,4 +1,4 @@
-var accessToken = "01fa1653f2a349cdae1a10b15827b773";
+var accessToken = config.AccessToken;
 var baseUrl = "https://api.api.ai/v1/";
 
 function speechRecognize() {
